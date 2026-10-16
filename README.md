@@ -14,9 +14,12 @@
 # Сборка проекта
 1. Через Пуск найти «Developer Command Prompt for VS»
 2. Перейти в папку проекта
+   cd C:\путь\к\vulkan-starter-app
 3. Сконфигурировать проект
 4. Собрать
-5. Запустить
+   cmake --build build-debug --config Debug
+6. Запустить
+   build-debug\Debug\vulkan-starter-app.exe
 
 # 🌋 Vulkan Starter App
 
